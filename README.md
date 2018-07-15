@@ -1,0 +1,1 @@
+Portfolio created on July 15th, 2018

@@ -1,0 +1,60 @@
+.main-container {
+  margin-top: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header-container {
+  margin-bottom: 30px;
+  display: flex;
+  width: calc(100% - 60px);
+  margin: 10px auto;
+  justify-content: space-between;
+  /* background-image: url('./images/middle-background.jpg');
+  background-size: cover; */
+}
+
+.main-title-container {
+  width: 600px;
+}
+
+.main-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 64px;
+  margin: 0;
+  /* margin-left: 30px; */
+  /* margin-top: 10px; */
+}
+
+.external-links-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 160px;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  width: calc(100% - 60px);
+  /* background-image: url('./images/middle-background-transparent.png');
+  background-size: cover; */
+}
+
+.content-divider {
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.skill-topics {
+  /* margin-top: 20px; */
+  width: 560px;
+  display: flex;
+  float: right;
+  align-items: flex-start;
+}

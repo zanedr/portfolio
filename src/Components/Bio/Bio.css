@@ -1,0 +1,13 @@
+.bio-container {
+    margin: 40px 30px 45px;
+    width: 600px;
+}
+
+.bio-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    /* margin: 0;
+    margin-left: 30px;
+    margin-top: 10px; */
+  }
