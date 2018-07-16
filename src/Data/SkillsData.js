@@ -1,6 +1,7 @@
 export const skillsData = [
     {name: 'Development',
-     sdata: ['React/Redux', 
+     sdata: ['React/React Router',
+             'Redux', 
              'Angular2/4/5', 
              'JavaScript/ES6', 
              'Typescript',
@@ -20,9 +21,7 @@ export const skillsData = [
             'Angular Materials',
             'Material-UI' ,
             'Adobe Photoshop', 
-            'Adobe Illustrator', 
-            'ARIA',
-            'Responsive Design'
+            'Adobe Illustrator'
     ]},
     {name: 'Testing',
      sdata: ['Mocha', 
