@@ -31,6 +31,14 @@
     display: flex;
     margin: 20px 45px 20px 30px;
     height: 55px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.project-links-container-unavailable {
+    display: flex;
+    margin: 20px 45px 20px 30px;
+    height: 55px;
     width: 220px;
     justify-content: space-between;
 }
@@ -56,4 +64,30 @@
     width: calc(100% - 301px);
     height: 200px;
     margin: 0;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: transparent;
+    width: 100%;
+    height: calc(100% - 20px);
+    padding-top: 20px;
+    /* margin-top: -17px; */
+    transition-duration: .2s;
+    opacity: 0;
+}
+
+.project-description:hover {
+    color: white;
+    transition-duration: .2s;
+    opacity: 0.9;
+    background-color: black;
+}
+
+.project-description-text {
+    font-size: 17px;
+    width: 90%;
+    margin-left: 5%;
 }

@@ -10,6 +10,8 @@
   width: calc(100% - 60px);
   margin: 10px auto;
   justify-content: space-between;
+  height: calc(100vh - 340px);
+  min-height: 250px;
   /* background-image: url('./images/middle-background.jpg');
   background-size: cover; */
 }
@@ -28,12 +30,17 @@
 }
 
 .external-links-container {
-  margin-top: 120px;
+  margin-top: calc(100vh - 380px);
   display: flex;
   flex-direction: row;
   float: right;
   width: 160px;
 }
+
+/* .spacer {
+  width: calc(100vw - 60px);
+  height: calc(100vh - 480px);
+} */
 
 .middle-section {
   display: flex;

@@ -25,6 +25,7 @@ class App extends Component {
             })}
           </div>
         </header>
+        {/* <span className="spacer"></span> */}
         <hr className="content-divider" />
         <section className="middle-section">
           <Bio />
